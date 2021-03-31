@@ -6,7 +6,7 @@
   Un second projet webgl développé pendant le premier confinement. Alors que les medias spéculaient sur la manière dont le virus, alors inconnus, sprédaient, petite simulation sur les mesures du confinement. Données totalement fictives pour cette simulation, basées sur le "ressenti-BFM" du moment.
   Côté tech : pas de framework, vanilla js & three.js 
   
-   → La démo, c'est <a href="http://myotherspot.fr/c19viz/" target="_blank">par ici</a>
+   → La démo, c'est <a href="http://myotherspot.fr/c19/" target="_blank">par ici</a>
 <p style="text-align:center">
   <img src="https://github.com/Console-buche/c19/blob/main/c19-demo.gif?raw=true" alt="Le gif de la viz" />
 </p>
