@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162155468-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-162155468-1');
+	</script>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Covid-19 has hit the world hard. This is my humble contribution, trying to help raise awareness about the importance of quarantine and safety tips.">
+    <meta name="keywords" content="HTML,CSS,,JavaScript, WebGL">
+    <meta name="author" content="Sebastien Dubourg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>STAY HOME - Covid-19 - Quarantine Simulation</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <!--
+
+DISCLAIMER : some of the code below is going to hurt your eyes badly. I mean it. This was coded in 3 days and a lot of cups of coffee, to take part in Devpost Facebook Hackathon.
+If, however, you're interested in the tech/concept, don't be that guy and contact me before copying/pasting :)
+
+Stay safe, 
+Sebastien Dubourg
+
+CREDITS FOR THE 3D MODELS GO TO TURBOSQUID FREE LOW POLY CITY MODEL. KUDOS FOR THAT. :)
+https://www.turbosquid.com/3d-models/uvw-polygons-unity-3d-model-1294342
+
+
+-->
+    <section id="about">
+
+        <h3>COVID-19 - QUARANTINE AWARENESS - EXPERIMENT</h3>
+        <p>This is a simulation of a few city blocks, with a public park and a supermarket. People, represented by
+            small green sphere, go about their daily lives : waking up, going to work, for a run in the park or
+            shopping.
+
+        </br>
+		The aim of this simulation is to raise awareness and
+            allow people to experience how impactful and necessary quarantine may be to fight the infection.<br>
+            Adjust the behaviour values in the top-right menu and start the simulation.<br>
+			</p>
+            <ul>
+                <li>
+                    <div id="p0"></div> : Patient zéro
+                </li>
+                <li>
+                    <div id="pEnForme"></div> : Healthy human
+                </li>
+                <li><span id="pMalade"></span> : Human sick with Covid-19</li>
+            </ul>
+            <ul style="background: black;
+        padding: 10px;
+        font-weight: bold;">
+                <li>
+                    <div class="stats" id="statsPromiscuite">0</div> : infections caused by social interaction with sick
+                    human
+                    </div>
+                </li>
+                <br>
+                <li>
+                    <div class="stats" id="statsMains">0</div> : infections caused by lack of awareness (hand washing,
+                    crowds, promiscuity...)</div>
+                </li>
+            </ul>
+            <div id="time">
+                <ul>
+                    <li><strong>DAY :</strong>
+                        <div id="days">0</div><strong> - TIME : </strong>
+                        <div id="hours">5</div> : <div id="mins">0</div>
+                    </li>
+                </ul>
+            </div>
+            <div id="socialMe">
+                <p>Feel free to contact me for anything related. Stay safe</p>
+                <p><a href="https://twitter.com/Console_buche" href="" target="_blank"><img src="./img/twitter.png"
+                            target="_blank" alt="Get in touch! Twitter ?" /></a>&nbsp;
+                    <a href="https://www.linkedin.com/in/sebastien-dubourg-aa083875/" target="_blank"><img
+                            src="./img/linkedin.png" alt="Get in touch! LinkedIn ?" /></a></p>
+            </div>
+			<div class="startSimArrow">></div>
+            <div id="startSim" class="button">START SIMULATION</div>
+    </section>
+    <script src="./js/libs/three/build/three.module.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/16.3.5/Tween.min.js"></script>
+    <script type="module" src="./js/libs/pathfinding/visual/lib/pathfinding-browser.min.js"></script>
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>
