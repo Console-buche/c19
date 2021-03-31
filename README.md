@@ -8,7 +8,7 @@
   
    → La démo, c'est <a href="http://myotherspot.fr/c19viz/" target="_blank">par ici</a>
 <p style="text-align:center">
-  <img src="https://github.com/Console-buche/c19viz/blob/main/c19viz-demo.gif?raw=true" alt="Le gif de la viz" />
+  <img src="https://github.com/Console-buche/c19/blob/main/c19-demo.gif?raw=true" alt="Le gif de la viz" />
 </p>
 
   </p>
