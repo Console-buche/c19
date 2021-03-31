@@ -1,0 +1,179 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+
+#about {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #1a1a1a;
+
+    color: #eee;
+    font: 13px 'Lucida Grande', sans-serif;
+    text-shadow: 0 -1px 0 #111;
+    max-width: 300px;
+    padding-left: 10px;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 5px;
+}
+
+#p0 {
+    width: 10px;
+    height: 10px;
+    background-color: #FF0000;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#pEnForme {
+    width: 10px;
+    height: 10px;
+    background-color: #00FF00;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#pMalade {
+    width: 10px;
+    height: 10px;
+    background-color: #0000FF;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.stats {
+    display: inline-block;
+}
+
+#time div {
+    display: inline-block;
+}
+
+#socialMe img {
+    width: 50px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/* GUI HACKZ... NO TIME */
+
+.main {
+    width: 310px !important;
+}
+
+.dg .c {
+	float:right !important;
+}
+
+.dg .property-name {
+	width:60% !important;
+}
+
+.c {
+	width:100px !important;
+}
+
+
+/* ANIMATIONS */
+
+
+
+.startSimArrow{
+	color:white;
+font-size: 40px;
+    position: absolute;
+    bottom: 5px;
+    right: 325px;
+  animation: showStartSim ease-in-out 4s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: showStartSim ease-in-out 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: showStartSim ease-in-out 4s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: showStartSim ease-in-out 4s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: showStartSim ease-in-out 4s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes showStartSim{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  50% {
+    transform:  translate(25px,0px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+@-moz-keyframes showStartSim{
+  0% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  50% {
+    -moz-transform:  translate(25px,0px)  ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-webkit-keyframes showStartSim {
+  0% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  50% {
+    -webkit-transform:  translate(25px,0px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-o-keyframes showStartSim {
+  0% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  50% {
+    -o-transform:  translate(25px,0px)  ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-ms-keyframes showStartSim {
+  0% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  50% {
+    -ms-transform:  translate(25px,0px)  ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+}
